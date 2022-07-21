@@ -1,0 +1,55 @@
+<html>
+
+<link rel="stylesheet" href="borang.css">
+<link rel="stylesheet" href="button.css">
+
+<style>
+h3{
+		font-family: verdana;
+		font-size: 12px;
+		font-weight: bold;
+		text-align: center;
+		color: white;
+	}
+	body{
+		background-image: url(gerak.gif);
+	}
+
+	input[type="text"] {
+		width: 200px;
+		padding: 5px;
+		margin: 5px;
+	}
+</style>
+
+<body>
+	<h3 class="panjang">DAFTAR PESERTA</h3>
+	<form class="panjang" action="signup.php" method="post">
+		<table>
+			<tr>
+				<td>No Kad Pengenalan</td>
+				<td><input type="text" name="nokp" placeholder="No Kp tanpa '-'" width="100" required></td>
+			</tr>
+			<tr>
+				<td>Nama Peserta</td>
+				<td><input type="text" name="peserta" placeholder="Nama (Huruf besar)" width="100"required></td>
+			<tr>
+
+			<tr>
+				<td>Kata Laluan</td>
+				<td><input type="password" name="passwd" placeholder="max:8 char"required></td>
+			<tr>
+
+			<tr>
+				<td>No Telefon</td>
+				<td><input type="text" name="telefon"></td>
+			</tr>
+			</table>
+			<button class="hidden" type="submit">Daftar</button>
+			<button class="padam" type="button" onclick="window.location='login.php'">Batal</button>
+			<form>
+		</body>
+		</html>
+
+
+				
